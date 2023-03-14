@@ -2,6 +2,7 @@
 import styles from './styles.module.css';
 import clipboardImage from '../../assets/clipboard.svg';
 import { NewTask } from '../NewTask';
+import { Task } from '../Task';
 
 export function TaskBoard() {
   return (
@@ -22,6 +23,7 @@ export function TaskBoard() {
           <p>Crie tarefas e organize seus itens a fazer</p>
         </div>
       </ul>
+      <Task />
     </div>
   );
 }
