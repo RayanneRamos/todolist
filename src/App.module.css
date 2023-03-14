@@ -1,0 +1,9 @@
+.wrapper {
+  max-width: 736px;
+  margin: 32px auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  align-items: center;
+}
