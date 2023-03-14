@@ -1,10 +1,12 @@
 
 import styles from './styles.module.css';
 import clipboardImage from '../../assets/clipboard.svg';
+import { NewTask } from '../NewTask';
 
 export function TaskBoard() {
   return (
     <div>
+      <NewTask />
       <div className={styles.taskBoardHeader}>
         <strong>
           Tarefas criadas <b>0</b>

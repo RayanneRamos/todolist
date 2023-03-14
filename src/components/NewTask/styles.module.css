@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: calc(0px - 1.5rem - 6px);
+  margin-top: calc(0px - 3.5rem - 6px);
 }
 
 .container form {
