@@ -1,0 +1,69 @@
+.task {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 16px;
+  margin-bottom: 12px;
+  background-color: var(--gray-500);
+  border-radius: 8px;
+}
+
+.task label {
+  width: 100%;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  place-content: space-between;
+  word-break: break-all;
+  color: var(--gray-100);
+}
+
+.task input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  border: 2px solid var(--blue);
+  transition: background-color 0.1s;
+}
+
+.task input[type="checkbox"]:checked + label {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.task input[type="checkbox"]:checked {
+  background-color: var(--purple);
+  border-color: var(--purple);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("data:image/svg+xml,%3Csvg width='10'   height='7' viewBox='0 0 10 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.43059 0.342154L4.09865 4.67409L1.61618 2.19162L0.780273 3.02753L4.09865 6.3459L9.26649 1.17806L8.43059 0.342154Z' fill='%23F2F2F2'/%3E%3C/svg%3E ");
+}
+
+.task input[type="checkbox"]:hover {
+  opacity: 0.8;
+}
+
+task input[type="checkbox"]:checked {
+  opacity: 0.8;
+}
+
+.task label button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: var(--gray-300);
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.task label button:hover {
+  color: var(--danger);
+}
