@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ```bash
   # Clone o repositório e entre na pasta do projeto
-  $ git clone https://github.com/RayanneRamos/ToDo-List.git
+  $ git clone https://github.com/RayanneRamos/todolist.git
   $ cd ignite-feed
   # Instale as dependências
   $ npm install
