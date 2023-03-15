@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 import clipboardImage from '../../assets/clipboard.svg';
 import { NewTask } from '../NewTask';
 import { Task } from '../Task';
-import { FormEvent, useState } from 'react';
+import { useState } from 'react';
 
 interface StatusProps {
   id: string;

@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
-import trash from '../../assets/trash.svg';
 import { ChangeEvent } from 'react';
+import { Trash } from 'phosphor-react';
 
 interface StatusProps {
   id: string;
@@ -29,7 +29,7 @@ export function Task({ id, task, onDeleteTask, onStatusChange }: TaskProps) {
       <label htmlFor={id}>
         {task}
         <button onClick={handleDeleteTask}>
-          <img src={trash} alt='Delete' />
+          <Trash size={24} />
         </button>
       </label>
     </div>
