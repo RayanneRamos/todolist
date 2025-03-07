@@ -14,8 +14,13 @@
 
 ## 💻 Projeto
 
-[ToDo List](https://todolist-blush.vercel.app/) é o primeiro desafio desenvolvido do bootcamp ignite da [Rocketseat](https://www.rocketseat.com.br/) que foca nas tecnologias ReactJS, React Native e NodeJS. Consiste em criar um projeto de uma todolist onde o usuário pode cadastrar novas
-tarefas, marcar as tarefas como concluídas e ter uma contagem de quantas tarefas ele concluiu naquele dia.
+[ToDo List](https://todolist-blush.vercel.app/) é o primeiro desafio desenvolvido do bootcamp ignite da [Rocketseat](https://www.rocketseat.com.br/) que foca nas tecnologias ReactJS, React Native e NodeJS. Consiste em criar um projeto de uma todolist onde o usuário pode cadastrar novas tarefas, marcar as tarefas como concluídas e ter uma contagem de quantas tarefas ele concluiu naquele dia.
+
+## 🌟 Funcionalidades
+
+1. **Listagem de tarefas diárias, permitindo ao usuário adicionar novas tarefas facilmente**
+2. **Marcação de tarefas como concluídas com um simples clique** 
+3. **Disponível para Android e iOS, garantindo acessibilidade em dispositivos móveis**
 
 ## 🧪 Technologies
 
