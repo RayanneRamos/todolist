@@ -22,7 +22,7 @@
 2. **Marcação de tarefas como concluídas com um simples clique** 
 3. **Disponível para Android e iOS, garantindo acessibilidade em dispositivos móveis**
 
-## 🧪 Technologies
+## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
